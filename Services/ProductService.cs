@@ -73,5 +73,10 @@ namespace Repository2025.Services
         {
             return DataHelper.GetInstance().ExecuteTransaction(product);
         }
+
+        public void UpdateProduct(Product product)
+        {
+            throw new Exception("No está implementado");
+        }
     }
 }
